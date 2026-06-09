@@ -7,19 +7,13 @@
       .wordmark { fill: #f8f8f2; }
     }
   </style>
-  <defs>
-    <clipPath id="mark-clip">
-      <rect x="0" y="0" width="220" height="190"/>
-    </clipPath>
-  </defs>
-  <g transform="translate(24 24)">
-    <rect x="0" y="0" width="220" height="190" fill="#000"/>
-    <g clip-path="url(#mark-clip)" fill="#fff">
-      <polygon points="88,88 120,88 60,190 28,190"/>
-      <polygon points="144,88 176,88 116,190 84,190"/>
-      <polygon points="200,88 232,88 178,166 146,166"/>
-      <rect x="146" y="166" width="82" height="24"/>
+  <g transform="translate(36 35)">
+    <rect x="0" y="0" width="206" height="170" fill="#000"/>
+    <g fill="#fff">
+      <polygon points="76,54 108,54 60,142 28,142"/>
+      <polygon points="124,54 156,54 108,142 76,142"/>
+      <polygon points="172,54 204,54 156,142 124,142"/>
     </g>
   </g>
-  <text class="wordmark" x="330" y="143" font-family="'SFMono-Regular', 'Cascadia Mono', 'Liberation Mono', Menlo, Consolas, monospace" font-size="54" letter-spacing="1.5">Workload-Aware DiLoCo</text>
+  <text class="wordmark" x="335" y="145" font-family="'SFMono-Regular', 'Cascadia Mono', 'Liberation Mono', Menlo, Consolas, monospace" font-size="54" letter-spacing="1.5">Workload-Aware DiLoCo</text>
 </svg>
