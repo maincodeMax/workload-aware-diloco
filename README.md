@@ -2,8 +2,6 @@
   <img src="assets/workload-aware-diloco-banner.svg" alt="Workload-Aware DiLoCo" width="900">
 </p>
 
-# Workload-Aware DiLoCo
-
 Workload-Aware DiLoCo (WA-DiLoCo) treats DiLoCo outer synchronization as a scheduling decision under shared-fleet pressure. This repository contains the controller, stress harness, calibrated vLLM replay scripts, Slurm launchers, and aggregate result summaries for the accompanying EMNLP Industry Track submission.
 
 The repository is organized for auditability. Most commands below run on a laptop from the released summaries; full training and sidecar reproduction requires access to comparable B200/vLLM and MI355X/RCCL hardware.
