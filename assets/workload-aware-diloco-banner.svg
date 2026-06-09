@@ -1,12 +1,25 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="260" viewBox="0 0 1200 260" role="img" aria-labelledby="title desc">
   <title id="title">Workload-Aware DiLoCo</title>
   <desc id="desc">Transparent banner with a black square mark and Workload-Aware DiLoCo wordmark.</desc>
+  <style>
+    .wordmark { fill: #111827; }
+    @media (prefers-color-scheme: dark) {
+      .wordmark { fill: #f8f8f2; }
+    }
+  </style>
+  <defs>
+    <clipPath id="mark-clip">
+      <rect x="0" y="0" width="220" height="190"/>
+    </clipPath>
+  </defs>
   <g transform="translate(24 24)">
     <rect x="0" y="0" width="220" height="190" fill="#000"/>
-    <polygon points="30,190 86,88 112,88 56,190" fill="#fff"/>
-    <polygon points="86,190 142,88 168,88 112,190" fill="#fff"/>
-    <polygon points="142,168 186,88 212,88 168,168" fill="#fff"/>
-    <rect x="168" y="168" width="52" height="22" fill="#fff"/>
+    <g clip-path="url(#mark-clip)" fill="#fff">
+      <polygon points="88,88 120,88 60,190 28,190"/>
+      <polygon points="144,88 176,88 116,190 84,190"/>
+      <polygon points="200,88 232,88 178,166 146,166"/>
+      <rect x="146" y="166" width="82" height="24"/>
+    </g>
   </g>
-  <text x="330" y="143" fill="#f8f8f2" font-family="'SFMono-Regular', 'Cascadia Mono', 'Liberation Mono', Menlo, Consolas, monospace" font-size="54" letter-spacing="1.5">Workload-Aware DiLoCo</text>
+  <text class="wordmark" x="330" y="143" font-family="'SFMono-Regular', 'Cascadia Mono', 'Liberation Mono', Menlo, Consolas, monospace" font-size="54" letter-spacing="1.5">Workload-Aware DiLoCo</text>
 </svg>
