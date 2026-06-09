@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "wa-diloco"
+version = "0.1.0"
+description = "Workload-aware DiLoCo controller, stress harness, and calibrated serving replay artifacts"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+  "pyyaml>=6.0",
+]
+
+[project.optional-dependencies]
+train = [
+  "datasets>=2.20",
+  "tqdm>=4.66",
+  "transformers>=4.44",
+]
+dev = [
+  "ruff>=0.5",
+  "pytest>=8",
+]
+
+[project.scripts]
+wa-diloco-coordinator = "wa_diloco.coordinator:main"
+wa-diloco-train-lm = "wa_diloco.train_lm:main"
+wa-diloco-init-checkpoint = "wa_diloco.init_checkpoint:main"
+wa-diloco-summarize = "wa_diloco.summarize_results:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="260" viewBox="0 0 1200 260" role="img" aria-labelledby="title desc">
+  <title id="title">Workload-Aware DiLoCo</title>
+  <desc id="desc">Transparent banner with a black square mark and Workload-Aware DiLoCo wordmark.</desc>
+  <g transform="translate(24 24)">
+    <rect x="0" y="0" width="220" height="190" fill="#000"/>
+    <polygon points="30,190 86,88 112,88 56,190" fill="#fff"/>
+    <polygon points="86,190 142,88 168,88 112,190" fill="#fff"/>
+    <polygon points="142,168 186,88 212,88 168,168" fill="#fff"/>
+    <rect x="168" y="168" width="52" height="22" fill="#fff"/>
+  </g>
+  <text x="330" y="143" fill="#f8f8f2" font-family="'SFMono-Regular', 'Cascadia Mono', 'Liberation Mono', Menlo, Consolas, monospace" font-size="54" letter-spacing="1.5">Workload-Aware DiLoCo</text>
+</svg>

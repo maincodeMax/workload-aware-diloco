@@ -1,0 +1,32 @@
+.DS_Store
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+
+# LaTeX build products
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fls
+*.fdb_latexmk
+*.log
+*.out
+*.run.xml
+*.synctex.gz
+*.xdv
+
+# Large or sensitive experiment outputs intentionally excluded from the artifact
+checkpoints/
+outputs/
+wandb/
+*.pt
+*.pth
+*.safetensors
+*.ckpt
+real_events.jsonl
+sim_events.jsonl
+*.log

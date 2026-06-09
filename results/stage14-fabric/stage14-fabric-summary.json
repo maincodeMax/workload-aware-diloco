@@ -1,0 +1,83 @@
+[
+  {
+    "algbw_gbps": 144.0003927627503,
+    "avg_ms": 0.4660325066652149,
+    "busbw_gbps": 270.0007364301568,
+    "nodes": 2,
+    "run": "776-2n",
+    "size_mib": 64,
+    "world_size": 16
+  },
+  {
+    "algbw_gbps": 159.95061373876433,
+    "avg_ms": 1.6782396123744547,
+    "busbw_gbps": 299.9074007601831,
+    "nodes": 2,
+    "run": "776-2n",
+    "size_mib": 256,
+    "world_size": 16
+  },
+  {
+    "algbw_gbps": 191.02350001908295,
+    "avg_ms": 5.620993353659287,
+    "busbw_gbps": 358.16906253578054,
+    "nodes": 2,
+    "run": "776-2n",
+    "size_mib": 1024,
+    "world_size": 16
+  },
+  {
+    "algbw_gbps": 89.90269103053917,
+    "avg_ms": 0.7464611262548715,
+    "busbw_gbps": 174.18646387166964,
+    "nodes": 4,
+    "run": "777-4n",
+    "size_mib": 64,
+    "world_size": 32
+  },
+  {
+    "algbw_gbps": 136.74569546576913,
+    "avg_ms": 1.9630267343018204,
+    "busbw_gbps": 264.9447849649277,
+    "nodes": 4,
+    "run": "777-4n",
+    "size_mib": 256,
+    "world_size": 32
+  },
+  {
+    "algbw_gbps": 186.1782109066222,
+    "avg_ms": 5.767279741121456,
+    "busbw_gbps": 360.7202836315805,
+    "nodes": 4,
+    "run": "777-4n",
+    "size_mib": 1024,
+    "world_size": 32
+  },
+  {
+    "algbw_gbps": 110.64901887628481,
+    "avg_ms": 0.6065021152608097,
+    "busbw_gbps": 216.68766196605776,
+    "nodes": 6,
+    "run": "791-6n",
+    "size_mib": 64,
+    "world_size": 48
+  },
+  {
+    "algbw_gbps": 156.38926913202846,
+    "avg_ms": 1.7164570017484948,
+    "busbw_gbps": 306.26231871688907,
+    "nodes": 6,
+    "run": "791-6n",
+    "size_mib": 256,
+    "world_size": 48
+  },
+  {
+    "algbw_gbps": 178.82554486767302,
+    "avg_ms": 6.004409631714225,
+    "busbw_gbps": 350.20002536585963,
+    "nodes": 6,
+    "run": "791-6n",
+    "size_mib": 1024,
+    "world_size": 48
+  }
+]

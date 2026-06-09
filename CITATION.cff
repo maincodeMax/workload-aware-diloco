@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you use this artifact, cite the accompanying EMNLP Industry Track paper."
+title: "Calibrating DiLoCo Synchronization Claims: Workload-Aware Scheduling for Co-Located Training and Serving"
+authors:
+  - name: "Anonymous Authors"
+date-released: 2026-06-09
+version: "0.1.0"
+preferred-citation:
+  type: article
+  title: "Calibrating DiLoCo Synchronization Claims: Workload-Aware Scheduling for Co-Located Training and Serving"
+  authors:
+    - name: "Anonymous Authors"
+  year: 2026
+  notes: "Anonymous review draft."

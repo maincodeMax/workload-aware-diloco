@@ -1,0 +1,51 @@
+name: stage4-random-deferral-s31
+
+model:
+  name_or_path: HuggingFaceTB/SmolLM2-135M
+  seq_len: 1024
+  dtype: bf16
+
+dataset:
+  name: HuggingFaceFW/fineweb-edu
+  split: train
+  text_column: text
+  streaming: true
+  shuffle_seed: 31
+  domain_name: general
+
+learners:
+  count: 8
+  min_ready: 8
+  gpus_per_learner: 1
+  per_device_batch_size: 2
+  learning_rate: 2.0e-5
+  weight_decay: 0.1
+  max_grad_norm: 1.0
+
+policy:
+  name: random_deferral
+  fixed_h: 128
+  min_h: 128
+  max_h: 512
+  deferral_probability: 0.5
+  random_seed: 31
+
+merge:
+  token_weighted: true
+  staleness_half_life_sec: 1800
+  max_update_norm: null
+
+runtime:
+  workspace: ../workspaces/stage4/random-deferral-s31
+  max_global_rounds: 8
+  max_control_cycles: 32
+  report_timeout_sec: 3600
+  poll_interval_sec: 2
+  pressure_file: pressure/latest.json
+
+tags:
+  platform: b200
+  accelerator: b200
+  mode: random_deferral
+  stage: "4"
+  seed: "31"

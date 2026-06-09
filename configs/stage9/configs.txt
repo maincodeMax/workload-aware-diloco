@@ -1,0 +1,9 @@
+configs/stage9/fixed_h_256_s23.yaml
+configs/stage9/fixed_h_256_s37.yaml
+configs/stage9/fixed_h_256_s41.yaml
+configs/stage9/pressure_gate_s23.yaml
+configs/stage9/pressure_gate_s37.yaml
+configs/stage9/pressure_gate_s41.yaml
+configs/stage9/wa_current_s23.yaml
+configs/stage9/wa_current_s37.yaml
+configs/stage9/wa_current_s41.yaml
