@@ -1,6 +1,0 @@
-job_id	policy	seed	sync_events	output_dir
-603	online_calibrated_wa	23	workspaces/stage13/wa-calibrated-s23/events/coordinator.jsonl	results/stage13/bursty_sync/online_calibrated_wa-s23
-604	online_calibrated_wa	29	workspaces/stage13/wa-calibrated-s29/events/coordinator.jsonl	results/stage13/bursty_sync/online_calibrated_wa-s29
-605	online_calibrated_wa	31	workspaces/stage13/wa-calibrated-s31/events/coordinator.jsonl	results/stage13/bursty_sync/online_calibrated_wa-s31
-606	online_calibrated_wa	37	workspaces/stage13/wa-calibrated-s37/events/coordinator.jsonl	results/stage13/bursty_sync/online_calibrated_wa-s37
-607	online_calibrated_wa	41	workspaces/stage13/wa-calibrated-s41/events/coordinator.jsonl	results/stage13/bursty_sync/online_calibrated_wa-s41

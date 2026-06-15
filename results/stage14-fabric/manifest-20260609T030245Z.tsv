@@ -1,4 +1,0 @@
-nodes	job_id	nodelist
-2	776	node-001,node-002
-4	777	node-001,node-002,node-003,node-004
-6	778	node-001,node-002,node-003,node-004,node-005,node-006
